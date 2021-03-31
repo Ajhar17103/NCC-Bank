@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>.::NCC Bank Limited::.</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- styleSheet/CSS-->
+    <link rel="stylesheet" href="../style.css" >
+    <!--googleFont-->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    
+      <div >
+        <button style='float:right;'class="btn btn-danger" onclick="document.getElementById('id01').style.display='block'">Admin</button>
+        <div id="id01" class="modal">
+  
+          <form class="modal-content animate" action="#" method="post">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <img src="../image/adminSigin.jpg"  class="avatar">
+            </div>
+        
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+        
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+                
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+        
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+        </div>
+        
+          <img id='logo' src="../image/new_logo.png"/>
+         
+      </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info  sticky ">
+        <a class="navbar-brand" href="#" style="font-family: 'Lobster', cursive;">NCC Bank Ltd.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Load Product
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Personal Loan</a>
+                <a class="dropdown-item" href="#">Education Loan</a>
+                <a class="dropdown-item" href="#">Car Loan</a>
+                <a class="dropdown-item" href="#">Home Loan</a>
+                <div class="dropdown-divider"></div>
+                <!-- if you want add somethinds, you can add here-->
+                <a class="dropdown-item" href="#">Something else here</a>
+
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               DP Product
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Current A/C</a>
+                <a class="dropdown-item" href="#">Savings Bank Deposit A/C</a>
+                <a class="dropdown-item" href="#">Youngstar A/C</a>
+                <a class="dropdown-item" href="#">Special Deposit Scheme</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Serivce 
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Locker Service</a>
+                <a class="dropdown-item" href="#"> NCC Bank SmartPay</a>
+                <a class="dropdown-item" href="#">Remittance Service</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Others
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+             
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light text-dark my-2 my-sm-0" type="submit">Search</button>
+            
+          </form>
+        </div>
+      </nav>
+      <hr/> 
+      <div class="text-center p-5 my-5 ">
+        <div  >
+          <button id="loan"   class='btn btn-light w-25 ' type='button' onclick="document.location='../loan/loan.html'"> Loan </button>
+          <button id="deposite" class='btn btn-light w-25' type='button' onclick="document.location='../deposite/deposite.html'  ">Deposite</button>
+        </div>
+      </div>
+        
+      <!--footer-->
+    <footer class="bg-success" id='footerDiv'>
+      <div id="footerNav" class="text-center">
+        <a href="#"> <img  id="footerMoneygram" src="../image/footer/moneygram.jpg"></a>
+        <a href="#"> <img id="footerMoneygram" src="../image/footer/UAEXchange.jpg"></a>
+        <a href="#"> <img id="footerMoneygram" src="../image/footer/Xpressmoney.jpg"></a>
+        <a href="#"> <img id="footerMoneygram" src="../image/footer/Plasid.jpg"></a>
+          <a href="#"> <img  id="footerMoneygram" src="../image/footer/majan.jpg"></a>
+            <a href="#"> <img id="footerMoneygram" src="../image/footer/jrf.jpg"></a>
+              <a href="#"> <img id="footerMoneygram" src="../image/footer/logo-wu.png"></a>
+      </div>
+      <div >
+
+      </div>
+      <hr/>
+     
+        <nav class="navbar w-75 navbar-light bg-dark " id="footerNav" > 
+          <a class="navbar-brand text-light  " href="#">Home</a>
+          <a class="navbar-brand text-light  " href="#">About US</a>
+          <a class="navbar-brand text-light" href="#">Unclaimed Deposit</a>
+          <a class="navbar-brand text-light" href="#"> Contact Us </a>
+          <a class="navbar-brand text-light" href="#">Sitemap</a>
+       
+     
+      
+      </nav>
+    
+     </div>
+        
+      
+      <hr/>
+      <div class="text-center">
+        <span>© Copyright @ NCC Bank Limited, All Rights Reserved. Developed & Maintained By NCC Bank IT Division.</span>
+      </div>
+    </footer>
+       
+        
+     
+       
+  <script src="./Myapp.js"></script>
+  </body>
+</html>
